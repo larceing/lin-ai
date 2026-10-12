@@ -1,0 +1,51 @@
+# --- Credenciales y configuracion local (NUNCA subir) ---
+.env
+.env.*
+*.env
+!env.ejemplo
+!.env.ejemplo
+!**/env.ejemplo
+!**/.env.ejemplo
+conexion_bd.txt
+**/conexion_bd.txt
+*.pem
+*.key
+credenciales*
+secrets*
+
+# --- Entornos y cache de Python ---
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# --- Salidas generadas y datos de clientes ---
+informes_generados/
+*.xlsx
+*.xls
+*.csv
+*.docx
+*.pdf
+!docs/*.pdf
+*.zip
+*.log
+logs/
+historial/
+chats/
+conversaciones/
+datos_usuarios/
+usuarios/
+*.sqlite
+*.db
+
+# --- Copias de seguridad antiguas ---
+respaldo/
+
+# --- Sistema / editores ---
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
